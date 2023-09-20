@@ -569,6 +569,10 @@ footer{
     
 }
 @media screen and (max-width:1200px){
+    body{
+        overflow-x: hidden;
+        position: absolute;
+    }
     .posts{
         flex-direction: column;
     }
@@ -613,7 +617,7 @@ footer{
     .about-content h2{
         padding-top: 20px;
         text-align: center;
-        font-size: 50px;
+        font-size: 80px;
     }
     .about-content h3{
         text-align: center;
@@ -626,22 +630,23 @@ footer{
     .about{
         flex-direction: column;
         margin: 50px auto;
-        width: 100%;
+        width: 90%;
     }
     .info-edu{
         justify-content: center;
         padding: 20px;
     }
     .info-edu h2{
+        font-size: 80px;
         margin-top: 10px;
     }
     .info-edu article p{
         width: 100%;
-        font-size:17px;
+        font-size:20px;
         margin:10px auto;
     }
     .wrapper {
-        width: 40%;
+        width: 30%;
         margin: 15px 0;
     }
     .song-info i, .song-details .song-name, .song-details i, .song-details .artist {
@@ -672,18 +677,18 @@ footer{
         margin-top: 30px;
         text-align: start; 
         margin-bottom: 10px; 
-        font-size: 50px; 
+        font-size: 80px; 
     }
-    .menu {
-        flex-direction: column; 
+    .menu{
         align-items: flex-start; 
         margin-top: 10px; 
     }
 
     .menu-item a {
-        margin-left: 0; 
+        margin-left: 20px; 
         margin-top: 5px;
-        width: 50%;
+        width: 150%;
+        font-size: 18px;
     }
 
     .hero-texto {
@@ -692,35 +697,39 @@ footer{
     }
 
     .hero-texto h1 {
-        font-size: 40px; 
+        font-size: 80px; 
         width: 100%;
         margin: 10px 0;
     }
 
     .hero-texto p {
-        font-size: 15px; 
+        font-size: 20px; 
         width: 40%; 
         text-align: left;
         margin: 10px 0; 
     }
 
     .hero-texto a {
-        font-size: 10px;
+        margin-top: 20px;
+        font-size: 20px;
         padding: 8px 12px; 
     }
 
     .imagem-hero {
-        width: 50%;
+        width: 500px;
+        height: 500px;
+        margin-top: 50%;
+        margin-right: 20px;
     }
 
     .icons {
-        flex-direction: row; 
-        top:87%;
+        flex-direction: row;
+        top: 10%;
     }
 
-    .icons .link-icon {
-        height: 30px;
-        width: 30px; 
+    .icons .link-icon{
+        height: 49px;
+        width: 49px; 
     }
     .servicos{
         flex-direction: column;
